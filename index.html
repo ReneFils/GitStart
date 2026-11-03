@@ -1,6 +1,4 @@
-from pathlib import Path
-
-html = r'''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -235,7 +233,4 @@ git log --oneline</code><button class="copy" type="button">Copy</button></div>
   </script>
 </body>
 </html>
-'''
-path = Path("/mnt/data/gitstart-getting-started.html")
-path.write_text(html, encoding="utf-8")
-print(f"Created: {path} ({path.stat().st_size:,} bytes)")
+
